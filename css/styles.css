@@ -1,0 +1,83 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Playfair+Display:900');
+/*Header*/
+.navbar-inverse{
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: rgba(51,51,51,0.5)
+}
+.navbar-inverse .navbar-nav>li>a, {
+  color: #F8512F;
+  text-shadow: 1px 1px 4px #333;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+  background-color: #F8512F
+}
+/*Carousel*/
+.item {
+  height: 425px;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-flex{
+  height: 425px;
+  display: flex;
+  align-items: center;
+}
+#wood-background{
+  background-image: url('../img/wood-2.jpg');
+}
+#carousel-logo{
+  height: 250px;
+}
+
+#seating-background{
+  background-image: url(../img/restaurant-2.jpg);
+}
+button.btn-warning{
+  background-color: #F8512F;
+  border-color: #F8512F;
+}
+
+button.btn-warning:hover{
+  background-color: #D34326;
+  border-color: #D34326;
+}
+#farm-background{
+  background-image: url(../img/farm-2.jpg);
+}
+.carousel-caption{
+  margin-bottom: 45px;
+}
+/*Our Story*/
+.lobster-text{
+  font-family: 'Lobster', cursive;
+}
+#our-story{
+  margin: 10% auto;
+}
+#our-story .lobster-text{
+  color: #F8512F;
+  text-shadow: 1px 1px 2px #313;
+  font-size: 5em;
+}
+#our-story h3{
+  margin-top: 0px;
+}
+
+.year-text{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  position: absolute;
+  z-index: 0;
+  color: rgba(51,51,51,0.1);
+  font-size: 170px;
+}
+/*Review*/
+.review-bg-img{
+  background-image: url(../img/food_review.jpg);
+  height: 450px;
+}
