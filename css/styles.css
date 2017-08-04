@@ -1,3 +1,7 @@
+/*Universal*/
+body{
+  position: relative;
+}
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
 /*Header*/
@@ -135,4 +139,24 @@ button.btn-warning:hover{
  .nav-tabs.nav-justified>.active>a:hover, .nav>li>a:hover{
   background-color: rgba(255, 255, 255, 0.2);
   border-color: transparent;
+}
+/*Contact*/
+#contact{
+  background-color: #F8512F;
+}
+#contact h1{
+  color: #FFF;
+  font-size: 60px;
+}
+#contact p{
+  color: #FFF;
+}
+form>label{
+  color: #FFF;
+}
+.form-box{
+  border: 2px;
+  border-color: #feaf98;
+  border-radius: 5px;
+  background-color: #FF6633;
 }
